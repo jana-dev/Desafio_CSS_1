@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(175, 93, 171, 0.75);
+    font-family: 'Montserrat';
+    font-size: 3em;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+.typing-animation { 
+    animation: blinkCursor 1000ms steps(40) infinite normal, 
+    typing 3s steps(40) 1s 3 alternate;
+    
+    
+    
+    
+}
+
+@keyframes typing {
+    from {
+      width: 0; 
+    }
+    to {
+        width: 10em;
+    }
+}
+
+@keyframes blinkCursor {
+   from {
+    border-right-color: rgba(255,255,255, 0.75);
+   }
+
+   to {
+    border-right-color: transparent;
+   }
+}
