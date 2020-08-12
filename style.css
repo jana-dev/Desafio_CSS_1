@@ -26,10 +26,6 @@ body {
 .typing-animation { 
     animation: blinkCursor 1000ms steps(40) infinite normal, 
     typing 3s steps(40) 1s 3 alternate;
-    
-    
-    
-    
 }
 
 @keyframes typing {
@@ -50,3 +46,10 @@ body {
     border-right-color: transparent;
    }
 }
+
+@media (max-width: 500px) {
+    .line {
+        font-size: 2em;
+    }
+}
+
