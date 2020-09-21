@@ -1,6 +1,6 @@
 # Desafio_CSS_1
 
-## Todo dia estou me desafiando com mini projetos em CSS!
+## Digitação na tela
 
 ### O que aprendi hoje:
 
